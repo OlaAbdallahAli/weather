@@ -42,7 +42,7 @@ btnSearch.addEventListener("click", function () {
 
 async function getWeather(city) {
   let response = await fetch(
-    `http://api.weatherapi.com/v1/forecast.json?key=19ee02755d0f4ab7ae4231651240412&q=${city}&days=3`
+   `https://api.weatherapi.com/v1/forecast.json?key=beaa6830775a4e99910131438220406&q=${city}07112&days=3`
   );
   if (response.ok) {
     data = await response.json();
